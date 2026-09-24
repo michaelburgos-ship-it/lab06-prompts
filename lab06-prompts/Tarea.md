@@ -82,5 +82,7 @@ Restricciones obligatorias:
 * **Error 2: No indicar el formato de salida**
   * *Cómo lo evité:* En lugar de dejar que la IA redacte párrafos largos y aburridos, le ordené textualmente usar viñetas, bloques separados por días y nombres de ejercicios resaltados en **negrita** para que sea fácil de leer en el teléfono mientras se entrena.
 
-- [Tarea: mi prompt profesional](lab06-prompts/Tarea.md)
+- [Tarea: mi prompt profesional](Tarea.md)
+
+
 
