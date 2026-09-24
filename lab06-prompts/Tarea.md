@@ -38,10 +38,6 @@ Tu tarea es diseñar una rutina de entrenamiento estructurada para realizar en c
 
 Contexto: El usuario dispone de solo 30 minutos al día, 3 días a la semana (Lunes, Miércoles y Viernes). El objetivo principal es mejorar la condición física general de forma segura, previniendo lesiones.
 
-Ejemplo de interacción esperada en la salida:
-- Lunes (Torso): Flexiones inclinadas (3 series x 8 repeticiones). Descanso: 60 segundos.
-- Miércoles (Pierna): Sentadillas libres (3 series x 10 repeticiones). Descanso: 60 segundos.
-
 Formato de salida requerido: Devuelve la información organizada en bloques independientes para cada día. Utiliza negritas para los nombres de los ejercicios y listas con viñetas claras. Incluye una sección final muy breve con 3 consejos obligatorios de calentamiento.
 
 Restricciones obligatorias: 
@@ -59,7 +55,7 @@ Restricciones obligatorias:
 ## Componentes del prompt final
  
 | Componente | Fragmento del Prompt Final |
-| :--- | :--- |
+| --- | --- |
 | **Rol** | "Actúa como un Entrenador Personal Certificado y Experto en Calistenia..." |
 | **Instrucción** | "Tu tarea es diseñar una rutina de entrenamiento estructurada para realizar en casa..." |
 | **Contexto** | "El usuario es principiante, no tiene equipo, dispone de 30 minutos al día, 3 días a la semana..." |
@@ -71,7 +67,7 @@ Restricciones obligatorias:
 ## Evaluacion del resultado
  
 | Criterio de Evaluación | Cumplimiento (Sí / No) | Observación / Evidencia |
-| :--- | :---: | :--- |
+| --- | --- | --- |
 | ¿La rutina está completamente libre de equipo o pesas? | **Sí** | Utilizó solo ejercicios con peso corporal y apoyo en sillas. |
 | ¿Se dividió el entrenamiento exactamente en los 3 días solicitados? | **Sí** | Creó bloques separados para Lunes, Miércoles y Viernes. |
 | ¿Cada día contiene un máximo de 4 ejercicios? | **Sí** | Cumplió la restricción de tiempo limitando la cantidad de movimientos. |
@@ -85,3 +81,5 @@ Restricciones obligatorias:
   * *Cómo lo evité:* En la versión 1 solo pedí "una rutina", lo que hizo que la IA me diera cosas imposibles. Lo solucioné detallando que el nivel es principiante, el tiempo máximo es de 30 minutos y los días exactos de la semana a entrenar.
 * **Error 2: No indicar el formato de salida**
   * *Cómo lo evité:* En lugar de dejar que la IA redacte párrafos largos y aburridos, le ordené textualmente usar viñetas, bloques separados por días y nombres de ejercicios resaltados en **negrita** para que sea fácil de leer en el teléfono mientras se entrena.
+
+- [Tarea: mi prompt profesional](lab06-prompts/TAREA.md)
